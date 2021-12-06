@@ -66,7 +66,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       // obscureText: true, // for password
                       // keyboardType: TextInputType.datetime, // optimized for dates & times
-                      keyboardType: TextInputType.emailAddress, // optimized for email address
+                      // keyboardType: TextInputType.emailAddress, // optimized for email address
+                      keyboardType: TextInputType.multiline, // optimized for multiline text
                       onChanged: (value) {
                         setState(() {
                           _txt = value;
