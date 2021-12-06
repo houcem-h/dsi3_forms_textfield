@@ -68,7 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       // keyboardType: TextInputType.datetime, // optimized for dates & times
                       // keyboardType: TextInputType.emailAddress, // optimized for email address
                       // keyboardType: TextInputType.multiline, // optimized for multiline text
-                      keyboardType: TextInputType.number, // optimized for numbers
+                      // keyboardType: TextInputType.number, // optimized for numbers
+                      keyboardType: TextInputType.phone, // optimized for phone numbers
                       onChanged: (value) {
                         setState(() {
                           _txt = value;
