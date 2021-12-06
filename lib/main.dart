@@ -71,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       // keyboardType: TextInputType.number, // optimized for numbers
                       // keyboardType: TextInputType.phone, // optimized for phone numbers
                       // keyboardType: TextInputType.text, // optimized for text
-                      keyboardType: TextInputType.url, // optimized for URL
+                      // keyboardType: TextInputType.url, // optimized for URL
                       onChanged: (value) {
                         setState(() {
                           _txt = value;
