@@ -64,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       decoration: const InputDecoration(
                           hintText: 'Your text goes here ...'
                       ),
+                      obscureText: true, // for password
                       onChanged: (value) {
                         setState(() {
                           _txt = value;
